@@ -12,6 +12,7 @@ Armazena informações sobre os usuários da rede social.
 <p align="center">
 <img width="737" height="196" alt="image" src="https://github.com/user-attachments/assets/2ce989da-4828-4202-8c13-ac5dc1ed4a69" />
 </p>
+
 - id: Identificador único do usuário (chave primária).
 
 - nome: Nome do usuário.
@@ -25,23 +26,34 @@ Armazena as postagens feitas pelos usuários.
 <p align="center">
 <img width="877" height="250" alt="image (1)" src="https://github.com/user-attachments/assets/5d65e008-168c-4625-bd8b-d878860f63ad" />
 </p>
+
 - id: Identificador único da postagem (chave primária).
+
 - usuario_id: Identificador do usuário que fez a postagem (chave estrangeira).
+  
 - conteudo: Conteúdo da postagem.
+
 - data: Data e hora da postagem (padrão: data atual).
-<br>
+
+<hr>
 
 3. Tabela 'Comentario'
 Armazena os comentários feitos nas postagens.
 <p align="center">
 <img width="862" height="363" alt="image (2)" src="https://github.com/user-attachments/assets/23f3b2b5-5d74-4f49-8506-a59325942b50" />
 </p>
+
 - id: Identificador único do comentário (chave primária).
+
 - postagem_id: Identificador da postagem comentada (chave estrangeira).
+
 - usuario_id: Identificador do usuário que fez o comentário (chave estrangeira).
+
 - conteudo: Conteúdo do comentário.
+
 - data: Data e hora do comentário (padrão: data atual).
-<br>
+
+<hr>
 
 **Inserção de Dados Mínimos**
 Para popular o banco de dados com dados iniciais, execute os seguintes comandos:
@@ -87,6 +99,8 @@ Total de Usuários e Postagens por Usuário:
 <img width="731" height="133" alt="image" src="https://github.com/user-attachments/assets/1baa28a8-91ed-4a2d-baf1-00a019bf24cd" />
 </p>
 
+<hr>
+
 **Modelo DER**
   <p align="center">
 <img width="997" height="772" alt="modeloDER" src="https://github.com/user-attachments/assets/b6b2e3f6-196e-4312-a335-f35ddb9bb39d" />
@@ -123,6 +137,8 @@ Atributos:
 - data_amizade DATETIME: Data em que a amizade foi estabelecida.
 - id_usuario INT: Referência ao primeiro usuário na amizade.
 - id_usuario2 INT: Referência ao segundo usuário na amizade.
+
+  <hr>
 
 **Relacionamentos**
 
