@@ -5,7 +5,9 @@ Este documento fornece uma visão geral do banco de dados rede_social_simples, q
   <p align="center">
 <img width="748" height="142" alt="image" src="https://github.com/user-attachments/assets/d7a6d218-5e85-48dc-b0f4-4821e667abc9" />
   </p>
-  
+
+<hr>
+
 **Tabelas**
 1. Tabela 'Usuario'
 Armazena informações sobre os usuários da rede social.
