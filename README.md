@@ -1,4 +1,5 @@
 **Banco de Dados Rede Social Simples**
+
 Este documento fornece uma visão geral do banco de dados rede_social_simples, que foi projetado para gerenciar uma rede social básica. O banco de dados contém tabelas para usuários, postagens e comentários, permitindo a interação entre os usuários.
 
 <hr>
