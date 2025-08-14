@@ -61,6 +61,8 @@ Para popular o banco de dados com dados iniciais, execute os seguintes comandos:
 <img width="777" height="371" alt="image (3)" src="https://github.com/user-attachments/assets/818b5cab-69d4-45be-a803-d4cda48d7c82" />
 </p>
 
+<hr>
+
 **Consultas Obrigatórias**
 1. Postagens com Autores
   <p align="center">
@@ -77,6 +79,8 @@ Para popular o banco de dados com dados iniciais, execute os seguintes comandos:
 <img width="758" height="153" alt="image" src="https://github.com/user-attachments/assets/9959e2a4-f9cf-46ed-bce1-106db00d45a6" />
   </p>
 
+<hr>
+
 **Subconsultas**
 1. Postagens Mais Recentes que a Média
   <p align="center">
@@ -92,6 +96,8 @@ Para popular o banco de dados com dados iniciais, execute os seguintes comandos:
   <p align="center">
 <img width="756" height="237" alt="image" src="https://github.com/user-attachments/assets/b4ed4aac-e96d-48f4-9cfa-c5d75c99550c" />
   </p>
+  
+<hr>
 
 **Funções Agregadas**
 Total de Usuários e Postagens por Usuário:
@@ -138,7 +144,7 @@ Atributos:
 - id_usuario INT: Referência ao primeiro usuário na amizade.
 - id_usuario2 INT: Referência ao segundo usuário na amizade.
 
-  <hr>
+<hr>
 
 **Relacionamentos**
 
