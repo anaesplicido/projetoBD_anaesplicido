@@ -14,9 +14,9 @@ Este documento fornece uma visão geral do banco de dados rede_social_simples, q
 **Tabelas**
 1. Tabela 'Usuario'
 Armazena informações sobre os usuários da rede social.
-<p align="center">
+  <p align="center">
 <img width="737" height="196" alt="image" src="https://github.com/user-attachments/assets/2ce989da-4828-4202-8c13-ac5dc1ed4a69" />
-</p>
+  </p>
 
 - id: Identificador único do usuário (chave primária).
 
@@ -28,9 +28,9 @@ Armazena informações sobre os usuários da rede social.
 
 2. Tabela 'Postagem'
 Armazena as postagens feitas pelos usuários.
-<p align="center">
+  <p align="center">
 <img width="877" height="250" alt="image (1)" src="https://github.com/user-attachments/assets/5d65e008-168c-4625-bd8b-d878860f63ad" />
-</p>
+  </p>
 
 - id: Identificador único da postagem (chave primária).
 
@@ -44,9 +44,9 @@ Armazena as postagens feitas pelos usuários.
 
 3. Tabela 'Comentario'
 Armazena os comentários feitos nas postagens.
-<p align="center">
+  <p align="center">
 <img width="862" height="363" alt="image (2)" src="https://github.com/user-attachments/assets/23f3b2b5-5d74-4f49-8506-a59325942b50" />
-</p>
+  </p>
 
 - id: Identificador único do comentário (chave primária).
 
