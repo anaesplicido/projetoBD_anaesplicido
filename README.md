@@ -13,9 +13,12 @@ Armazena informações sobre os usuários da rede social.
 <img width="737" height="196" alt="image" src="https://github.com/user-attachments/assets/2ce989da-4828-4202-8c13-ac5dc1ed4a69" />
 </p>
 - id: Identificador único do usuário (chave primária).
+
 - nome: Nome do usuário.
+  
 - email: Endereço de e-mail do usuário (único).
-<br> 
+
+<hr> 
 
 2. Tabela 'Postagem'
 Armazena as postagens feitas pelos usuários.
